@@ -8,3 +8,90 @@
 
 	https://blog.pleets.org/article/instalar-laravel-8
 
+
+Que version debo utilizar
+	https://styde.net/que-version-de-laravel-debo-usar/
+
+Diferencias Entre Versiones
+	https://styde.net/laravel-6-es-lts/
+
+Actualizar versiones
+	https://styde.net/como-actualizar-tu-aplicacion-de-laravel-5-8-a-6-0/
+
+Pruebas con Laravel
+	https://styde.net/pruebas-con-laravel/
+
+
+Versiones 			Vigencia
+5.6 				Inicia en 2018 y Concluye soporte a principios de 2019
+5.7 				Inicia en el segundo semestre de 2018 y concluye soporte a finales de 2019
+5.8 				Inicia en primer seestre de 2019 y concluye soporte a principios de 2020
+
+Versiones actualmente soportadas
+
+6.0 (LTS)			Inicia en el segundo semestre de 2019 y concluira a mediados del 2022
+7					Inicia a principios de 2020 y concluye mantenimiento a principios de 2021.
+8 					Inicia soporte en septiembre de 2020 y se concluye ajustes de seguridad en julio de 2022
+9 					Versión actual inicia en febrero de 2022 y concluye soporte programado en agosto de 2023
+10(no released yet)	Iniciara en febrero de 2023 y tendra soporte hasta agosto del 2024
+
+Fuente:
+
+Comenzando con Laravel
+	Curso de Laravel desde cero
+		https://styde.net/laravel-5/
+
+
+Revisiones Pasadas
+	Laravel 5.3
+		https://styde.net/curso-de-novedades-en-laravel-5-3/
+
+	Laravel 5.4
+		https://styde.net/curso-de-novedades-de-laravel-5-4/
+
+	Laravel 5.5 
+		https://styde.net/curso-de-novedades-de-laravel-5-5/
+
+
+
+Las novedades de Laravel 5.6 a 6 están explicadas dentro de:
+	
+	Panel de Control con Laravel
+		https://styde.net/crea-un-panel-de-control-con-laravel/
+
+	Técnicas de autorización con Laravel 
+		https://styde.net/tecnicas-de-autorizacion-con-laravel/
+
+
+Laravel 6
+	Primeras pasos con Laravel 6
+		https://styde.net/laravel-6/
+
+
+Laravel 7
+	Novedades de Laravel 7
+		https://styde.net/laravel-6/
+
+	Actualizar a Laravel 7
+		https://styde.net/guia-de-actualizacion-a-laravel-7/
+		https://styde.net/videotutorial-actualizando-una-aplicacion-de-laravel-6-a-7/
+
+
+Laravel 8
+	Novedades de Laravel 8
+		https://styde.net/novedades-de-laravel-8/
+
+	Actualizar a Laravel 8
+		https://styde.net/guia-de-actualizacion-a-laravel-8/
+		https://styde.net/actualizar-una-aplicacion-a-laravel-8/			
+
+
+Componentes para proyectos con Laravel
+	https://styde.net/como-elegir-un-plugin-o-componente-para-tu-proyecto/						
+
+Interfaces Dinamicas con Laravel y jquery
+	https://styde.net/curso-de-interfaces-dinamicas-con-laravel-y-jquery/	
+
+Laravel 9
+	Instalación de Laravel 9
+		https://styde.net/instalacion-de-laravel-9/
