@@ -7,14 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## # Laravel5_1stSteps
-Introducción a las bases de Laravel 5
+## # Laravel 9
+Introducción a las bases de Laravel 9
 
-# Laravel 5
-Revisión de las bases de la Laravel 5 desde cero, el framework para PHP más popular de la actualidad mediante una introducción básica.
+# Laravel 9
+
+Laravel en version 9.2.0
+
+Revisión de las bases de la Laravel 9 desde cero, el framework para PHP más popular de la actualidad mediante una introducción básica.
+
+Este proyecto se trabaja desde un servidor local basado en el sistema operativo Debian 11 con version del Kernel 5.10.103 x86_64, con apache 2/2.4.52 y PHP/v.8.1.3 instalado.
+
 
 # Resumen:
-Laravel 5 es el framework para PHP más popular hoy en la actualidad. Es uno de los frameworks más populares para desarrollar aplicaciones modernas y escalables en el lado del servidor con PHP, ya sea para ser desarrollador back-end o full-stack, o incluso si ya se dedicaa al desarrollo web, es casi obligatorio aprender Laravel 5.
+Laravel 9 es el framework para PHP más popular hoy en la actualidad y en la ultima versión estable. Es uno de los frameworks más populares para desarrollar aplicaciones modernas y escalables en el lado del servidor con PHP, ya sea para ser desarrollador back-end o full-stack, o incluso si ya se dedicaa al desarrollo web, es casi obligatorio aprender Laravel 5.
 
 Laravel 5 es un framework muy solicitado por las empresas, fácil de aprender y muy útil. Utiliza componentes de frameworks tan potentes y robustos como Symfony
 
@@ -94,3 +100,47 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# Export - Import Proyect
+
+Al hacer la clonación del proyecto en un servidor local, aun cumpliendo los requisitos de origen instalados, sule presentarse un error como se describe a continuación.
+
+Incluso suele suceder cuando se pasa de un proyecto a otro de computadora a computadora.
+
+Aun instalado composer y laravel, cuando se inetenta abrir incluso mediante php artisan serve, en la direccion del proyecto en htdocs en xampp/wamp/appserv manda unos errores como los siguientes:
+
+Warning: require(C:\Appserv\htdocs\LaravelProyect\public/../../laravel/bootstrap/autoload.php): failed to open stream: No such file or directory in C:\Appserv\htdocs\LaravelProyect\public\index.php on line 34
+
+Fatal error: require(): Failed opening required 'C:\Appserv\htdocs\LaravelProyect\public/../../laravel/bootstrap/autoload.php' (include_path='C:\Appserv\php\PEAR') in C:\Appserv\htdocs\LaravelProyect\public\index.php on line 34
+
+si se esta manejando un proyecto desde un servidor como XAMPP/WAMP/Appserv, no es necesario utilizar la sentencia php artisan serve; puesto que se tiene un servidor local Apache corriendo y se podrá acceder al proyecto desde el navegador accesando a la ruta publica o bien con la configuración del Virtual Host configurado.
+
+ahora bien.
+
+
+Esos mensajes de error es porque no ha instalado las librerias correspondientes,
+
+1. Ejecuta en la raiz de tu proyecto
+
+	composer install
+
+	ej.
+		cd /var/www/html/dev/laravel/
+		composer install
+
+2. Seguido tendrás que copiar el archivo '.env.example' a '.env'
+
+		cp .env.example .env
+
+3. Luego ejecutar
+
+		php artisan key:generate
+
+4. Configurar la conexión a la base de datos.
+
+	php artisan migrate (si tiene seeders utiliza  --seed)
+
+5. Visualizar al proyecto desde la ruta adecuada en el navegador.
+
+
