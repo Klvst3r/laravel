@@ -145,7 +145,7 @@ Requisitos
 		En la ruta /etc/apache2/sites-available/
 
 	Creamos un archivo de configuración de nuestro host virtual
-		sudo subl /etc/apache2/sites-available/klvst3r.io
+		sudo subl /etc/apache2/sites-available/klvst3r.io.conf
 
 
 3. Generamos el siguiente contenido
